@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usingDeviceMomory", "usingDeviceMomory\usingDeviceMomory.vcxproj", "{33906F25-AC94-4693-9FBC-E72D78B351E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33906F25-AC94-4693-9FBC-E72D78B351E9}.Debug|x64.ActiveCfg = Debug|x64
+		{33906F25-AC94-4693-9FBC-E72D78B351E9}.Debug|x64.Build.0 = Debug|x64
+		{33906F25-AC94-4693-9FBC-E72D78B351E9}.Release|x64.ActiveCfg = Release|x64
+		{33906F25-AC94-4693-9FBC-E72D78B351E9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD1C2960-599F-4E4A-B755-8449DA316E7D}
+	EndGlobalSection
+EndGlobal
