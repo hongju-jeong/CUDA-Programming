@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_2_MatAdd_2D_index", "5_2_MatAdd_2D_index\5_2_MatAdd_2D_index.vcxproj", "{AB08BC7E-A64D-4E00-86A5-D2B390323880}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB08BC7E-A64D-4E00-86A5-D2B390323880}.Debug|x64.ActiveCfg = Debug|x64
+		{AB08BC7E-A64D-4E00-86A5-D2B390323880}.Debug|x64.Build.0 = Debug|x64
+		{AB08BC7E-A64D-4E00-86A5-D2B390323880}.Release|x64.ActiveCfg = Release|x64
+		{AB08BC7E-A64D-4E00-86A5-D2B390323880}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17D00E27-3F79-4005-A90F-685F6ADC8FC3}
+	EndGlobalSection
+EndGlobal
