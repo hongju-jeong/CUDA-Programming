@@ -7,7 +7,7 @@
 #include <string.h>
 
 #define DO_CPU
-#define DATA_TYPE int
+#define DATA_TYPE float
 
 #define SIZE_M (512*2)
 #define SIZE_N (512*4)
@@ -17,10 +17,10 @@
 #define INDEX2COL(_index,_width)	((_index)%(_width))
 #define ID2INDEX(_row,_col, _width) (((_row)*(_width))+(_col))
 
-#define BLOCK_SIZE 32
+#define BLOCK_SIZE 16
 
 // Macro function
-//#define KERNEL_MUL(_a,_b) __fmul_rn(_a,_b)
+//#define KERNEL_MUL(_a,_b) __fmul_rn(_a,_b)     // 라운딩 방법을 정해주는 것이다 CPU와 라운딩 방법을 같게한다
 #define KERNEL_MUL(_a,_b) (_a*_b)
 
 // kernel declarations
